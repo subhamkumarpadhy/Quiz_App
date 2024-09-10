@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dpExtraSmall">4dp</dimen>
+    <dimen name="dpSmall">8dp</dimen>
+    <dimen name="dpMedium">16dp</dimen>
+    <dimen name="dpLarge">24dp</dimen>
+    <dimen name="dpXL">32dp</dimen>
+    <dimen name="dpXXL">42dp</dimen>
+    <dimen name="dpXXXL">62dp</dimen>
+
+
+    <dimen name="btnNormal">55dp</dimen>
+    <dimen name="btnLarge">60dp</dimen>
+    <dimen name="btnXL">65dp</dimen>
+</resources>
