@@ -15,18 +15,18 @@
         <activity
             android:name=".feature_profile.presentation.activities.AuthActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".feature_profile.presentation.activities.EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".feature_quiz.presentation.activities.MainActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

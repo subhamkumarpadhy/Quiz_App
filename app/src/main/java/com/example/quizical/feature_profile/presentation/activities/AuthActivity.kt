@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
-import com.example.quizical.MainActivity
+import com.example.quizical.feature_quiz.presentation.activities.MainActivity
 import com.example.quizical.R
 import com.example.quizical.databinding.ActivityAuthBinding
 import com.example.quizical.feature_profile.data.repository.AuthRepositoryimpl

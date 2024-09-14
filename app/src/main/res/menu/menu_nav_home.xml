@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Quizzes"
+        android:icon="@drawable/ic_quiz_filled"
+        />
+    <item
+        android:id="@+id/menu_leaderboard"
+        android:title="Leaderboard"
+        android:icon="@drawable/ic_menu_leaderboard"
+        />
+    <item
+        android:id="@+id/menu_earning"
+        android:title="Earning"
+        android:icon="@drawable/ic_menu_money"
+        />
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_menu_person"
+        />
+</menu>
