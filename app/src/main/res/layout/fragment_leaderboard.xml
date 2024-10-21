@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature_main.presentation.fragments.EarningFragment">
+    tools:context=".feature_main.presentation.fragments.LeaderboardFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -12,18 +12,20 @@
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|snap"
+            app:layout_scrollEffect="compress"
             android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:background="@drawable/gradient">
 
                 <View
                     android:id="@+id/view"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/dpXXLL"
+                    android:layout_marginTop="72dp"
                     android:alpha="0.5"
                     android:background="@drawable/shape_trophy_cylinder"
                     app:layout_constraintEnd_toEndOf="parent"

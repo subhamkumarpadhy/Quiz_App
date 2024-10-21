@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    app:behaviour_hideable="false"
+    app:behavior_hideable="false"
     app:layout_behavior="@string/bottom_sheet_behavior">
 
     <com.google.android.material.bottomsheet.BottomSheetDragHandleView
@@ -21,6 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rv_quizzes"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
         tools:listitem="@layout/item_quizzes"

@@ -12,6 +12,8 @@
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|snap"
+            app:layout_scrollEffect="compress"
             android:layout_height="match_parent">
 
             <com.google.android.material.card.MaterialCardView
@@ -131,6 +133,7 @@
         tools:listitem="@layout/item_earning_history" />
 
     <TextView
+        android:id="@+id/tvHistoryNotFound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History Not Found"

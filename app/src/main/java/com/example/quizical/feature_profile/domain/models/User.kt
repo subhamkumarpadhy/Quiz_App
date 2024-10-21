@@ -5,4 +5,5 @@ data class User(
     val photo: String = "",
     val name: String = "",
     val phoneNumber: String = "",
+    val points: Long = 0L,
 )

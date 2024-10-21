@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:cardElevation="1dp"
+        android:layout_margin="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -40,6 +41,7 @@
                     android:minWidth="26dp">
 
                     <TextView
+                        android:id="@+id/tv_index"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -49,7 +51,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/shapeableImageView"
+                android:id="@+id/iv_user_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginStart="@dimen/dpMedium"
@@ -66,8 +68,8 @@
                 android:includeFontPadding="false"
                 android:text="🇮🇳"
                 android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="@+id/shapeableImageView"
-                app:layout_constraintEnd_toEndOf="@+id/shapeableImageView"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_user_image"
+                app:layout_constraintEnd_toEndOf="@+id/iv_user_image"
                 app:layout_constraintTop_toTopOf="@+id/dummy_view" />
 
             <View
@@ -87,13 +89,14 @@
                 android:text="Subham Kumar Padhy"
                 android:textAppearance="?textAppearanceHeadline6"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/shapeableImageView"
-                app:layout_constraintTop_toTopOf="@+id/shapeableImageView" />
+                app:layout_constraintStart_toEndOf="@+id/iv_user_image"
+                app:layout_constraintTop_toTopOf="@+id/iv_user_image" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5,555 Points"
+                android:id="@+id/tv_points"
                 android:textAppearance="?textAppearanceBodySmall"
                 app:layout_constraintStart_toStartOf="@+id/tv_username"
                 app:layout_constraintTop_toBottomOf="@+id/tv_username" />
